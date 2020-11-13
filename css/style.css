@@ -1,0 +1,237 @@
+#bodybg {
+	background-color: #0c0c0c;
+	position: relative;
+	width: 300px;
+	height: 250px;
+}
+
+#value {
+	color: #FFFF00;
+	font-size: 10px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value.zoomout {
+	
+	-webkit-transform: scale(5);
+	-moz-transform: scale(5);
+	-o-transform: scale(5);
+	transform: scale(5);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+#value.zoomout::before {
+  content: "%";
+}
+
+#value.zoomout::before {
+  content: "%";
+}
+#value4.zoomout::before {
+  content: "%";
+}
+#value5.zoomout::before {
+  content: "%";
+}
+#value1 {
+	color: #ffffff;
+	font-size: 10px;
+	position: absolute;
+	top: 20px;
+	left: 200px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value1.zoomout {
+	-webkit-transform: scale(5);
+	-moz-transform: scale(5);
+	-o-transform: scale(5);
+	transform: scale(5);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value2 {
+	color: #ffffff;
+	font-size: 5px;
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value2.zoomout {
+	-webkit-transform: scale(4);
+	-moz-transform: scale(4);
+	-o-transform: scale(4);
+	transform: scale(4);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value3 {
+	color: #ffffff;
+	font-size: 6px;
+	position: absolute;
+	    top: 150px;
+    left: 40px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value3.zoomout {
+	-webkit-transform: scale(3);
+	-moz-transform: scale(3);
+	-o-transform: scale(3);
+	transform: scale(3);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value4 {
+	color: #FFFF00;
+	font-size: 13px;
+	position: absolute;
+	top: 83px;
+	left: 120px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value4.zoomout {
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-o-transform: scale(2);
+	transform: scale(2);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value5 {
+	color: #FFFF00;
+	font-size: 10px;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value5.zoomout {
+	-webkit-transform: scale(3);
+	-moz-transform: scale(3);
+	-o-transform: scale(3);
+	transform: scale(3);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value6 {
+	color: red;
+	font-size: 14px;
+	position: absolute;
+	bottom: 30px;
+	left: 180px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value6.zoomout {
+	-webkit-transform: scale(1.9);
+	-moz-transform: scale(1.9);
+	-o-transform: scale(1.9);
+	transform: scale(1.9);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value7 {
+	color: orange;
+	font-size: 10px;
+	position: absolute;
+	top: 130px;
+	left: 100px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value7.zoomout {
+	-webkit-transform: scale(2.1);
+	-moz-transform: scale(2.1);
+	-o-transform: scale(2.1);
+	transform: scale(2.1);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value8 {
+	color: #ffffff;
+	font-size: 10px;
+	position: absolute;
+	top: 120px;
+	left: 270px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#value8.zoomout {
+	-webkit-transform: scale(2.3);
+	-moz-transform: scale(2.3);
+	-o-transform: scale(2.3);
+	transform: scale(2.3);
+	-webkit-transition: 5s linear;
+	-moz-transition: 5s linear;
+	-o-transition: 5s linear;
+	transition: 5s linear;
+}
+
+#value.remove,
+#value1.remove,
+#value2.remove,
+#value3.remove,
+#value4.remove,
+#value5.remove,
+#value6.remove,
+#value7.remove {
+	display: none !important;
+}
